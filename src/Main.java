@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) throws Exception{
-        System.out.println(calc("1 + 3"));
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        System.out.println(calc(input));
     }
 
     public static String calc(String input) throws Exception {
