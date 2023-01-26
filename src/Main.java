@@ -1,4 +1,7 @@
 public class Main {
+    public static void main(String[] args) throws Exception{
+        System.out.println(calc("1 + 3"));
+    }
 
     public static String calc(String input) throws Exception {
         int firstSpaceIndex = input.indexOf(" ");
